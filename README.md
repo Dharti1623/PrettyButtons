@@ -17,9 +17,15 @@
 
 Add it as a dependency in their `pubspec.yaml`:
 
-```
+
+1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
+```yaml
 dependencies:
-  pretty_button: ^0.0.1
+pretty_button: ^0.0.1
+```
+2. Import the package and use it in your Flutter App.
+```dart
+import 'package:fancy_containers/fancy_containers.dart';
 ```
 
 ### Customizations
