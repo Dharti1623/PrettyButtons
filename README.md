@@ -12,11 +12,7 @@
   <tr>
     <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="100px;" alt="android"/><br /><sub><b>android</b></sub></a></td>
     <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/iphone"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="100px;" alt="ios"/><br /><sub><b>ios</b></sub></a></td>
-  </tr>  
-  <tr>
     <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="100px;" alt="macos"/><br /><sub><b>macos</b></sub></a></td>
-  </tr>
-    <tr>
     <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="100px;" alt="web"/><br /><sub><b>web</b></sub></a></td>
   </tr>
 </table>
