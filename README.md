@@ -76,3 +76,12 @@ PrettyButton(
 ```
 
 Check example folder for more.
+
+## Main Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Dharti1623"><img src="https://avatars.githubusercontent.com/u/102344648?s=400&u=f090532c81927a74127240b841de2f79e388fc02&v=4" width="100px;" alt=""/><br /><sub><b>Dharti Chauhan </b></sub></a></td>
+  </tr>
+</table>
+<br/>
