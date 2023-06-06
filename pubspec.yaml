@@ -1,7 +1,8 @@
 name: pretty_button
-description: plugin of pretty buttons
+description: A pretty and customizable button for your flutter project
 version: 0.0.1
-homepage:
+repository: https://github.com/Dharti1623/prettyButtons
+homepage: https://github.com/Dharti1623
 
 environment:
   sdk: '>=3.0.3 <4.0.0'
