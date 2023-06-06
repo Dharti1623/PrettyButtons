@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class PrettyButton extends StatelessWidget {
-  //this will call  when you click on the button
-  VoidCallback? onTap;
+//if you make true then your button will be disabled
+  bool isDisable;
   double? height;
   double? width;
   double? blurRadius;
@@ -17,14 +17,17 @@ class PrettyButton extends StatelessWidget {
   //shadow color of bottom-center and bottom-right side
   Color? bottomShadowColor;
 
-  //you can add any widget here for example text,icon,image etc...
-  Widget child;
-
   //padding of child widget
   EdgeInsets innerPadding;
 
   //padding of whole button
   EdgeInsets outerPadding;
+
+  //you can add any widget here for example text,icon,image etc...
+  Widget child;
+
+//this will call  when you click on the button
+  VoidCallback? onTap;
 
   PrettyButton({
     super.key,
@@ -40,6 +43,7 @@ class PrettyButton extends StatelessWidget {
     this.bottomShadowColor,
     this.innerPadding = const EdgeInsets.all(8.0),
     this.outerPadding = const EdgeInsets.all(8.0),
+    this.isDisable = false,
   });
 
   @override
@@ -47,19 +51,23 @@ class PrettyButton extends StatelessWidget {
     return Padding(
       padding: outerPadding,
       child: GestureDetector(
-        onTap: onTap,
+        onTap: isDisable ? null : onTap,
         child: Container(
           padding: innerPadding,
           height: height,
           width: width,
           decoration: BoxDecoration(
-            color:
-                backgroundColor ?? Theme.of(context).colorScheme.outlineVariant,
+            color: isDisable
+                ? Colors.grey.shade300
+                : backgroundColor ??
+                    Theme.of(context).colorScheme.outlineVariant,
             borderRadius: BorderRadius.circular(borderRadius!),
             boxShadow: [
               BoxShadow(
-                color:
-                    bottomShadowColor ?? Theme.of(context).colorScheme.primary,
+                color: isDisable
+                    ? Colors.grey
+                    : bottomShadowColor ??
+                        Theme.of(context).colorScheme.primary,
                 spreadRadius: spreadRadius!,
                 blurRadius: blurRadius!,
                 offset: const Offset(4, 4),

@@ -34,6 +34,7 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               PrettyButton(
+                isDisable: false,
                 blurRadius: 8,
                 spreadRadius: 2,
                 topShadowColor: Theme.of(context).colorScheme.onPrimary,
