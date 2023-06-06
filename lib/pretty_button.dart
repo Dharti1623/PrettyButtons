@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'pretty_button_platform_interface.dart';
 
+// ignore: must_be_immutable
 class PrettyButton extends StatelessWidget {
   //this will call  when you click on the button
   VoidCallback? onTap;
@@ -47,24 +47,26 @@ class PrettyButton extends StatelessWidget {
     return Padding(
       padding: outerPadding,
       child: GestureDetector(
-
         onTap: onTap,
         child: Container(
           padding: innerPadding,
           height: height,
           width: width,
           decoration: BoxDecoration(
-            color: backgroundColor ?? Theme.of(context).colorScheme.outlineVariant,
+            color:
+                backgroundColor ?? Theme.of(context).colorScheme.outlineVariant,
             borderRadius: BorderRadius.circular(borderRadius!),
             boxShadow: [
               BoxShadow(
-                color: bottomShadowColor ?? Theme.of(context).colorScheme.primary,
+                color:
+                    bottomShadowColor ?? Theme.of(context).colorScheme.primary,
                 spreadRadius: spreadRadius!,
                 blurRadius: blurRadius!,
                 offset: const Offset(4, 4),
               ),
               BoxShadow(
-                color: topShadowColor ?? Theme.of(context).colorScheme.onPrimary,
+                color:
+                    topShadowColor ?? Theme.of(context).colorScheme.onPrimary,
                 spreadRadius: spreadRadius!,
                 blurRadius: blurRadius!,
                 offset: const Offset(-4, -4),
