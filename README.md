@@ -14,11 +14,9 @@ You can also make button disable using isDisable property.
 
 
 
-| <b>android</b>                                                                                                                                                                                                                          |                                                                                                              <b>ios</b>                                                                                                              |                                                                                                              <b>macos</b>                                                                                                              | <b>web</b>                                                                                                                                                                                                                       |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="200px;" alt="android"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="200px;" alt="iphone"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="250px;" alt="macos"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="250px;" alt="web"/></a> |
-
-
+| <b>android</b>                                                                                                                                                                                                                            |                                                                                                               <b>ios</b>                                                                                                               |                                                                                                               <b>macos</b>                                                                                                               | <b>web</b>                                                                                                                                                                                                                         |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="200px;" alt="android"/></a>   |  <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="200px;" alt="iphone"/></a>  |  <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="250px;" alt="macos"/></a>  | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="250px;" alt="web"/></a>   |
 
 
 
@@ -33,18 +31,15 @@ You can also make button disable using isDisable property.
 Add it as a dependency in their `pubspec.yaml`:
 
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
-
-```yaml
-dependencies:
-    pretty_button: ^0.0.3
-```
+    ```yaml
+        dependencies:
+          pretty_button: ^0.0.4
+    ```
 
 2. Import the package and use it in your Flutter App.
-
-```dart
-  import 'package:fancy_containers/fancy_containers.dart';
-```
-
+    ```dart
+        import 'package:fancy_containers/fancy_containers.dart';
+    ```
 
 
 ### Customizations
@@ -69,7 +64,7 @@ dependencies:
 
 ### Usage
 
-```
+```flutter
     import 'package:pretty_button/pretty_button.dart';
 ```
 

@@ -1,6 +1,6 @@
 name: pretty_button
 description: Flutter pretty and customizable 3D button with minimal design and highly customizable.It can be also disabled.
-version: 0.0.3
+version: 0.0.4
 repository: https://github.com/Dharti1623/prettyButtons
 homepage: https://github.com/Dharti1623
 
@@ -21,19 +21,4 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.example.pretty_button
-        pluginClass: PrettyButtonPlugin
-      ios:
-        pluginClass: PrettyButtonPlugin
-      linux:
-        pluginClass: PrettyButtonPlugin
-      macos:
-        pluginClass: PrettyButtonPlugin
-      windows:
-        pluginClass: PrettyButtonPluginCApi
-      web:
-        pluginClass: PrettyButtonWeb
-        fileName: pretty_button_web.dart
+

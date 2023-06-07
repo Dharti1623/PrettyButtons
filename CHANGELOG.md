@@ -12,3 +12,9 @@
 
 - Remove required from onTap button
 - changes default property's values
+
+
+## 0.0.4
+
+- Some minor modifications
+
