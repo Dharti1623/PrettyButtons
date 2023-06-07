@@ -32,7 +32,7 @@ Add it as a dependency in their `pubspec.yaml`:
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
     ```yaml
         dependencies:
-          pretty_button: ^0.0.4
+          pretty_button: ^0.0.5
     ```
 
 2. Import the package and use it in your Flutter App.

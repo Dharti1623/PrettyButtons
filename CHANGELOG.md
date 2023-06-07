@@ -18,3 +18,7 @@
 
 - Some minor modifications
 
+## 0.0.5
+
+- Solving sdk issue
+
