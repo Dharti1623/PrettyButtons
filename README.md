@@ -6,7 +6,6 @@ It can be use as a 3d button and also you can customize it.
 You can also make button disable using isDisable property.
 
 
-
 ### Platform Support
 
 | Android | iOS | Web | MacOS | Linux | Windows |
