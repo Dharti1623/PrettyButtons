@@ -1,6 +1,11 @@
 # pretty_button
 
 `pretty_button` a pretty and customizable 3D button for your flutter project.
+Flutter 3d button with minimal design and highly customizable.
+It can be use as a 3d button and also you can customize it.
+You can also make button disable using isDisable property.
+
+
 
 ### Platform Support
 
