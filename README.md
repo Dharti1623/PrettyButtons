@@ -9,10 +9,14 @@
 | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; |
 
 
+
+</br></br></br>
 | <b>android</b>                                                                                                                                                                                                                          |                                                                                                              <b>ios</b>                                                                                                              |                                                                                                              <b>macos</b>                                                                                                              | <b>web</b>                                                                                                                                                                                                                       |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="100px;" alt="android"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="100px;" alt="iphone"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="150px;" alt="macos"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="150px;" alt="web"/></a> |
+| <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="200px;" alt="android"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="200px;" alt="iphone"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="250px;" alt="macos"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="250px;" alt="web"/></a> |
 
+
+</br></br>
 
 
 <!-- ![Android Image](screenshots/android.png)
@@ -37,6 +41,8 @@ dependencies:
   import 'package:fancy_containers/fancy_containers.dart';
 ```
 
+
+</br></br>
 ### Customizations
 
 | Attribute           |    Type    |     Default      | Description                                                      |
@@ -55,6 +61,8 @@ dependencies:
 | `onTap`             | `Function` |                  | Button press handler                                             |
 | `child`             |  `Widget`  |                  | Inner content for the button, required*                          |
 
+
+</br></br></br>
 ### Usage
 
 ```
@@ -81,10 +89,12 @@ dependencies:
             style: TextStyle(color: Theme.of(context).colorScheme.primary, fontSize: 18,fontWeight: FontWeight.bold),
         ),
     );
+    
 ```
 
 Check example folder for more.
 
+</br></br></br>
 ## Contributor
 
 <table>
