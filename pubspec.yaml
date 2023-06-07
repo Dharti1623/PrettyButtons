@@ -5,7 +5,7 @@ repository: https://github.com/Dharti1623/prettyButtons
 homepage: https://github.com/Dharti1623
 
 environment:
-  sdk: '>=3.0.3 <4.0.0'
+  sdk: '>=3.0.2 <4.0.0'
   flutter: ">=3.3.0"
 
 dependencies:

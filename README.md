@@ -1,9 +1,9 @@
 # pretty_button
 
- - `pretty_button` a pretty and customizable 3D button for your flutter project with minimal design and highly customizable.               
- - It can be use as a 3d button and also you can customize it. 
- - You can also make button disable using isDisable property.
- 
+- `pretty_button` a pretty and customizable 3D button for your flutter project with minimal design
+  and highly customizable.
+- It can be use as a 3d button and also you can customize it.
+- You can also make button disable using isDisable property.
 
 ### Platform Support
 
@@ -11,14 +11,9 @@
 | :-----: | :-: | :---: | :-----: | :-: | :---: |
 | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; |
 
-
-
 | <b>android</b>                                                                                                                                                                                                                            |                                                                                                               <b>ios</b>                                                                                                               |                                                                                                               <b>macos</b>                                                                                                               | <b>web</b>                                                                                                                                                                                                                         |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="200px;" alt="android"/></a>   |  <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="200px;" alt="iphone"/></a>  |  <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="250px;" alt="macos"/></a>  | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="250px;" alt="web"/></a>   |
-
-
-
 
 <!-- ![Android Image](screenshots/android.png)
 ![ios Image](screenshots/iphone.png)
@@ -40,7 +35,6 @@ Add it as a dependency in their `pubspec.yaml`:
         import 'package:fancy_containers/fancy_containers.dart';
     ```
 
-
 ### Customizations
 
 | Attribute           |    Type    |     Default      | Description                                                      |
@@ -58,8 +52,6 @@ Add it as a dependency in their `pubspec.yaml`:
 | `isDisable`         |   `Bool`   |     `false`      | You can make button disable by making it true, defaults to false |
 | `onTap`             | `Function` |                  | Button press handler                                             |
 | `child`             |  `Widget`  |                  | Inner content for the button, required*                          |
-
-
 
 ### Usage
 
@@ -96,6 +88,7 @@ Add it as a dependency in their `pubspec.yaml`:
 
 Check example folder for more.
 </br></br>
+
 ## Publisher
 
 <table>

@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:pretty_button/pretty_button.dart';
 
@@ -46,7 +47,9 @@ class _MyAppState extends State<MyApp> {
                 innerPadding: const EdgeInsets.all(8.0),
                 outerPadding: const EdgeInsets.all(8.0),
                 onTap: () {
-                  print('Button clicked');
+                  if (kDebugMode) {
+                    print('Button clicked');
+                  }
                 },
                 child: Text('buttonTxt',
                     style: TextStyle(
