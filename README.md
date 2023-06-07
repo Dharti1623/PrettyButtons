@@ -94,7 +94,7 @@ dependencies:
 
 Check example folder for more.
 </br></br>
-## Author
+## Publisher
 
 <table>
   <tr>
