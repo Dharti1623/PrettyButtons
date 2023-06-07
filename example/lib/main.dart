@@ -35,8 +35,8 @@ class _MyAppState extends State<MyApp> {
             children: [
               PrettyButton(
                 isDisable: false,
-                blurRadius: 8,
-                spreadRadius: 2,
+                blurRadius: 5,
+                spreadRadius: 1,
                 topShadowColor: Theme.of(context).colorScheme.onPrimary,
                 bottomShadowColor: Theme.of(context).colorScheme.primary,
                 backgroundColor: Theme.of(context).colorScheme.outlineVariant,

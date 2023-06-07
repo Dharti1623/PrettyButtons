@@ -10,10 +10,10 @@
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="100px;" alt="android"/><br /><sub><b>android</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/iphone"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="100px;" alt="ios"/><br /><sub><b>ios</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="100px;" alt="macos"/><br /><sub><b>macos</b></sub></a></td>
-    <td align="center"><a href="https://github.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="100px;" alt="web"/><br /><sub><b>web</b></sub></a></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="100px;" alt="android"/><br /><sub><b>android</b></sub></a></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/iphone"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="100px;" alt="ios"/><br /><sub><b>ios</b></sub></a></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="100px;" alt="macos"/><br /><sub><b>macos</b></sub></a></td>
+    <td align="center"><a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="100px;" alt="web"/><br /><sub><b>web</b></sub></a></td>
   </tr>
 </table>
 
@@ -27,15 +27,17 @@
 
 Add it as a dependency in their `pubspec.yaml`:
 
-
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
+
 ```yaml
 dependencies:
-pretty_button: ^0.0.2
+    pretty_button: ^0.0.3
 ```
+
 2. Import the package and use it in your Flutter App.
+
 ```dart
-import 'package:fancy_containers/fancy_containers.dart';
+  import 'package:fancy_containers/fancy_containers.dart';
 ```
 
 ### Customizations
@@ -47,48 +49,46 @@ import 'package:fancy_containers/fancy_containers.dart';
 | `backgroundColor`   |  `Color`   | `outlineVariant` | The background color of button, defaults to outlineVariant       |
 | `innerPadding`      |  `Double`  |       `8`        | Padding of child widget, defaults to 8                           |
 | `outerPadding`      |  `Double`  |       `8`        | Padding of button widget, defaults to 8                          |
-| `blurRadius`        |  `Double`  |       `8`        | The blur radius of the button, defaults to 8                     |
-| `spreadRadius`      |  `Double`  |       `2`        | The spread radius of the button, defaults to 2                   |
+| `blurRadius`        |  `Double`  |       `5`        | The blur radius of the button, defaults to 5                     |
+| `spreadRadius`      |  `Double`  |       `1`        | The spread radius of the button, defaults to 1                   |
 | `height`            |  `Double`  |       `50`       | Height of the button, defaults to 50                             |
 | `width`             |  `Double`  |      `150`       | Width of the button defaults to 150,                             |
 | `borderRadius`      |  `Double`  |       `15`       | The border radius of the button, defaults to 15                  |
 | `isDisable`         |   `Bool`   |     `false`      | You can make button disable by making it true, defaults to false |
-| `onTap`             | `Function` |                  | Button press handler, required*                                  |
+| `onTap`             | `Function` |                  | Button press handler                                             |
 | `child`             |  `Widget`  |                  | Inner content for the button, required*                          |
 
 ### Usage
 
 ```
-...
-import 'package:pretty_button/pretty_button.dart';
-...
+    import 'package:pretty_button/pretty_button.dart';
 ```
 
 ```
-PrettyButton(
-  innerPadding: const EdgeInsets.all(8.0),
-  outerPadding: const EdgeInsets.all(8.0),
-  width: 150,
-  height: 50,
-  blurRadius: 8,
-  spreadRadius: 2,
-  borderRadius: 15,
-  topShadowColor: Theme.of(context).colorScheme.onPrimary,
-  bottomShadowColor: Theme.of(context).colorScheme.primary,
-  backgroundColor: Theme.of(context).colorScheme.outlineVariant,
-  onTap: (finish) {
-    print('On tap called');
-  },
-  child: Text(
-    'buttonTxt',
-    style: TextStyle(color: Theme.of(context).colorScheme.primary, fontSize: 18,fontWeight: FontWeight.bold),
-  ),
-);
+    PrettyButton(
+        innerPadding: const EdgeInsets.all(8.0),
+        outerPadding: const EdgeInsets.all(8.0),
+        width: 150,
+        height: 50,
+        blurRadius: 8,
+        spreadRadius: 2,
+        borderRadius: 15,
+        topShadowColor: Theme.of(context).colorScheme.onPrimary,
+        bottomShadowColor: Theme.of(context).colorScheme.primary,
+        backgroundColor: Theme.of(context).colorScheme.outlineVariant,
+        onTap: (finish) {
+            print('On tap called');
+        },
+        child: Text(
+            'buttonTxt',
+            style: TextStyle(color: Theme.of(context).colorScheme.primary, fontSize: 18,fontWeight: FontWeight.bold),
+        ),
+    );
 ```
 
 Check example folder for more.
 
-## Main Contributors
+## Contributor
 
 <table>
   <tr>
