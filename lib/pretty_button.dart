@@ -17,7 +17,7 @@ class PrettyButton extends StatelessWidget {
   //spreadRadius of shadow of the button
   double spreadRadius;
 
-  //borderRadius of the button
+  //borderRadius of the button for giving shape to the button
   double? borderRadius;
 
   //backgroundColor of the button
@@ -47,8 +47,8 @@ class PrettyButton extends StatelessWidget {
     required this.child,
     this.height = 50.0,
     this.width = 150.0,
-    this.blurRadius = 8.0,
-    this.spreadRadius = 2.0,
+    this.blurRadius = 5.0,
+    this.spreadRadius = 1.0,
     this.borderRadius = 15.0,
     this.backgroundColor,
     this.topShadowColor,

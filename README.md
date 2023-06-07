@@ -68,25 +68,29 @@ Add it as a dependency in their `pubspec.yaml`:
 ```
 
 ```
-    PrettyButton(
-        innerPadding: const EdgeInsets.all(8.0),
-        outerPadding: const EdgeInsets.all(8.0),
-        width: 150,
-        height: 50,
-        blurRadius: 8,
-        spreadRadius: 2,
-        borderRadius: 15,
-        topShadowColor: Theme.of(context).colorScheme.onPrimary,
-        bottomShadowColor: Theme.of(context).colorScheme.primary,
-        backgroundColor: Theme.of(context).colorScheme.outlineVariant,
-        onTap: (finish) {
-            print('On tap called');
-        },
-        child: Text(
-            'buttonTxt',
-            style: TextStyle(color: Theme.of(context).colorScheme.primary, fontSize: 18,fontWeight: FontWeight.bold),
-        ),
-    );
+   PrettyButton(
+         isDisable: false,
+         blurRadius: 5,
+         spreadRadius: 1,
+         topShadowColor: Theme.of(context).colorScheme.onPrimary,
+         bottomShadowColor: Theme.of(context).colorScheme.primary,
+         backgroundColor: Theme.of(context).colorScheme.outlineVariant,
+         width: 150,
+         height: 50,
+         borderRadius: 15,
+         innerPadding: const EdgeInsets.all(8.0),
+         outerPadding: const EdgeInsets.all(8.0),
+         onTap: () {
+               print('Button clicked');
+         },
+         child: Text('buttonTxt',
+               style: TextStyle(
+                     color: Theme.of(context).colorScheme.primary,
+                     fontSize: 18,
+                     fontWeight: FontWeight.bold,
+               ),
+         ),
+   );
     
 ```
 
