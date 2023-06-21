@@ -37,9 +37,9 @@ Add it as a dependency in their `pubspec.yaml`:
 
 ### Customizations
 
-| Attribute           |    Type    |     Default      | Description                                                      |
+| `Attribute`           |    `Type`    |     `Default`      | `Description`                                                      |
 |:--------------------|:----------:|:----------------:|:-----------------------------------------------------------------|
-| `topShadowColor`    |  `Color`   |   `onPrimary`    | shadow color of top and left side, defaults to onPrimary         |
+| topShadowColor    |  Color   |   onPrimary    | shadow color of top and left side, defaults to onPrimary         |
 | `bottomShadowColor` |  `Color`   |    `primary`     | Shadow color of bottom and right side, defaults to primary       |
 | `backgroundColor`   |  `Color`   | `outlineVariant` | The background color of button, defaults to outlineVariant       |
 | `innerPadding`      |  `Double`  |       `8`        | Padding of child widget, defaults to 8                           |
