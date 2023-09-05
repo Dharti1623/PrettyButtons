@@ -22,3 +22,9 @@
 
 - Solving sdk issue
 
+
+
+## 0.0.6
+
+- Gave documentation to code
+

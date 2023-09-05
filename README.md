@@ -1,24 +1,22 @@
-# pretty_button
+# Pretty Button - A Customizable 3D Button Widget for Flutter
 
-- `pretty_button` a pretty and customizable 3D button for your flutter project with minimal design
-  and highly customizable.
-- It can be use as a 3d button and also you can customize it.
-- You can also make button disable using isDisable property.
+`pretty_button` is a customizable 3D button widget for your Flutter project with minimal design and
+high customizability. You can use it as a 3D button and customize it to fit your app's style.
+Additionally, you can disable the button using the `isDisable` property.
 
-### Platform Support
+## Platform Support
 
 | Android | iOS | Web | MacOS | Linux | Windows |
 | :-----: | :-: | :---: | :-----: | :-: | :---: |
 | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; | &#9989; |
 
-| <b>android</b>                                                                                                                                                                                                                            |                                                                                                               <b>ios</b>                                                                                                               |                                                                                                               <b>macos</b>                                                                                                               | <b>web</b>                                                                                                                                                                                                                         |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="200px;" alt="android"/></a>   |  <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="200px;" alt="iphone"/></a>  |  <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="250px;" alt="macos"/></a>  | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="250px;" alt="web"/></a>   |
 
-<!-- ![Android Image](screenshots/android.png)
-![ios Image](screenshots/iphone.png)
-![macos Image](screenshots/macOs.png)
-![web Image](screenshots/web.png) -->
+
+| <b>android</b>                                                                                                                                                                                                                          |                                                                                                              <b>ios</b>                                                                                                              |                                                                                                              <b>macos</b>                                                                                                              | <b>web</b>                                                                                                                                                                                                                       |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/android.png" width="200px;" alt="android"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/iphone.png" width="200px;" alt="iphone"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/macOs.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/macOs.png" width="250px;" alt="macos"/></a> | <a href="https://raw.githubusercontent.com/Dharti1623/prettyButtons/blob/main/screenshots/web.png"><img src="https://raw.githubusercontent.com/Dharti1623/prettyButtons/main/screenshots/web.png" width="250px;" alt="web"/></a> |
+
+
 
 ### Installation
 
@@ -27,12 +25,12 @@ Add it as a dependency in their `pubspec.yaml`:
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
     ```yaml
         dependencies:
-          pretty_button: ^0.0.5
+          pretty_button: ^0.0.6
     ```
 
 2. Import the package and use it in your Flutter App.
     ```dart
-        import 'package:fancy_containers/fancy_containers.dart';
+       import 'package:pretty_button/pretty_button.dart';
     ```
 
 ### Customizations
@@ -52,6 +50,7 @@ Add it as a dependency in their `pubspec.yaml`:
 | `isDisable`         |   `Bool`   |     `false`      | You can make button disable by making it true, defaults to false |
 | `onTap`             | `Function` |                  | Button press handler                                             |
 | `child`             |  `Widget`  |                  | Inner content for the button, required*                          |
+
 
 ### Usage
 
@@ -91,9 +90,4 @@ Check example folder for more.
 
 ## Publisher
 
-<table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/dhartichauhan"><img src="https://avatars.githubusercontent.com/u/102344648?s=400&u=f090532c81927a74127240b841de2f79e388fc02&v=4" width="100px;" alt=""/><br /><sub><b>Dharti Chauhan </b></sub></a></td>
-  </tr>
-</table>
-<br/>
+<a href="https://www.linkedin.com/in/dhartichauhan"><sub><b>Dharti Chauhan </b></sub></a>
