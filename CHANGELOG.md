@@ -28,3 +28,9 @@
 
 - Gave documentation to code
 
+
+
+## 0.0.7
+
+- Format issue solved
+

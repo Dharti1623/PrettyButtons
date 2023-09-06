@@ -90,14 +90,14 @@ class PrettyButton extends StatelessWidget {
               color: isDisable
                   ? Colors.grey.shade300
                   : backgroundColor ??
-                  Theme.of(context).colorScheme.outlineVariant,
+                      Theme.of(context).colorScheme.outlineVariant,
               width: 2,
             ),
             // Adds a border around the button.
             color: isDisable
                 ? Colors.grey.shade300
                 : backgroundColor ??
-                Theme.of(context).colorScheme.outlineVariant,
+                    Theme.of(context).colorScheme.outlineVariant,
             borderRadius: BorderRadius.circular(borderRadius!),
             boxShadow: [
               // Adds a shadow to the button for a 3D effect.
@@ -105,14 +105,14 @@ class PrettyButton extends StatelessWidget {
                 color: isDisable
                     ? Colors.grey
                     : bottomShadowColor ??
-                    Theme.of(context).colorScheme.primary,
+                        Theme.of(context).colorScheme.primary,
                 spreadRadius: spreadRadius,
                 blurRadius: blurRadius,
                 offset: const Offset(3, 3),
               ),
               BoxShadow(
                 color:
-                topShadowColor ?? Theme.of(context).colorScheme.onPrimary,
+                    topShadowColor ?? Theme.of(context).colorScheme.onPrimary,
                 spreadRadius: spreadRadius,
                 blurRadius: blurRadius,
                 offset: const Offset(-3, -3),
